@@ -1,0 +1,9 @@
+O que é o AWS Cloud9?
+AWS Cloud9 é um ambiente de desenvolvimento integrado, ou IDE
+O IDE do AWS Cloud9 oferece uma experiência de edição de código completa com suporte para várias linguagens de programação e depuradores de tempo de execução, além de um terminal integrado. Ele contém um conjunto de ferramentas usadas para codificar, compilar, executar, testar e depurar software, e ajuda você a liberar software para a nuvem.
+Como o AWS Cloud9 funciona?
+Um ambiente do AWS Cloud9 é um local onde você armazena os arquivos do projeto e onde executa as ferramentas para desenvolver as aplicações.
+Usando o IDE do AWS Cloud9, você pode:
+  Armazenar os arquivos do projeto localmente na instância ou no servidor.
+  Clone um repositório de código remoto, como um repositório no AWS CodeCommit, em seu ambiente
+  Trabalhar com uma combinação de arquivos locais e clonados no ambiente.
