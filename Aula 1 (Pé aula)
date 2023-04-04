@@ -1,0 +1,38 @@
+Preparação dos laboratórios no ambiente da nuvem AWS
+
+1. Ativação da conta:
+    1. Abrir o email “Course Invitation” e efetuar o cadastro
+    2. Abrir o email “AWS Educate Application Approved” e configurar a senha
+    3. Clicar no módulo “Learner Lab – Foundational Services”
+    4. Concordar com os “Termos de uso” clicando em “I Agree” no fim da página
+    5. Clicar em “Start Lab”
+    6. Fazer o Download da chave PEM através da aba “AWS Details”
+    7. Abrir a Console clicando em “AWS”
+
+2. Abrir o ambiente de desenvolvimento CLOUD9 a partir da Console:
+    1. A partir da Console, selecionar o serviço Cloud9
+    2. Clicar em “Create enviroment” para criar o ambiente de desenvolvimento
+    3. Definir o nome “fiaplab”
+    4 Selecionar "Nova instância do EC2"
+    5 Alterar Instance type e a Plataforma
+    6. Selecionar m5.large (8GB de RAM + vCPU de 2) e Ubuntu Server 18.04 LTS
+    7. Ajustar as configurações de rede: selecionar SSH e us-east-1.
+    8. Ajustar Sub-rede: selecionar us-east-1a padrão
+    9. Revisar as configurações e clicar em “Create environment”
+    10. Clicar em "Em aberto"
+    
+3. Configurar o ambiente remoto
+    1. Enviar o arquivo labsuser.pem para o Cloud9
+    2. Clicar no terminal na parte inferior do Cloud9 e listar os arquivos
+        > chmod 400 labsuser.pem
+        > ls -lh
+    3. Verifica que o arquivo labsuser.pem foi enviado com sucesso
+    4. Preparação do ambiente com instalações necessárias
+        > git clone https://github.com/tonanuvem/config
+        > chmod +x config/cloud9.sh config/ansible.sh
+        > ./config/cloud9.sh
+        > ./config/ansible.sh
+    5. Verificar o IP_EXTERNO do LAB
+        > ./ip
+
+
