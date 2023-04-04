@@ -1,9 +1,28 @@
 O que é o AWS Cloud9?
-AWS Cloud9 é um ambiente de desenvolvimento integrado, ou IDE
-O IDE do AWS Cloud9 oferece uma experiência de edição de código completa com suporte para várias linguagens de programação e depuradores de tempo de execução, além de um terminal integrado. Ele contém um conjunto de ferramentas usadas para codificar, compilar, executar, testar e depurar software, e ajuda você a liberar software para a nuvem.
+AWS Cloud9 é um ambiente de desenvolvimento integrado, ou IDE que oferece uma experiência de edição de código completa com suporte para várias linguagens de programação 
+e depuradores de tempo de execução, além de um terminal integrado. Ele contém um conjunto de ferramentas usadas para codificar, compilar, executar, testar e depurar 
+software, e ajuda você a liberar software para a nuvem.
+
 Como o AWS Cloud9 funciona?
 Um ambiente do AWS Cloud9 é um local onde você armazena os arquivos do projeto e onde executa as ferramentas para desenvolver as aplicações.
+
 Usando o IDE do AWS Cloud9, você pode:
   Armazenar os arquivos do projeto localmente na instância ou no servidor.
   Clone um repositório de código remoto, como um repositório no AWS CodeCommit, em seu ambiente
   Trabalhar com uma combinação de arquivos locais e clonados no ambiente.
+  
+Beneficios
+- CODIFIQUE USANDO APENAS UM NAVEGADOR
+- CODIFIQUE EM CONJUNTO EM TEMPO REAL
+- CRIE APLICATIVOS SEM SERVIDOR COM FACILIDADE
+- ACESSO DIRETO À AWS VIA TERMINAL
+- INICIE RAPIDAMENTE NOVOS PROJETOS
+
+
+Quais são os tipos de ambientes de desenvolvimento do AWS Cloud9?
+
+Ambiente do EC2 do AWS Cloud9 – permite inicializar uma nova instância do Amazon EC2 à qual o Cloud9 se conecta. Por padrão, essas instâncias param 30 minutos depois que
+você fecha o IDE e são inicializadas automaticamente quando você abre o IDE.
+
+Ambiente do SSH do AWS Cloud9 – permite conectar um servidor existente do Linux ao Cloud9. Há certas dependências que são necessárias no servidor do Linux que você deseja
+usar com ambientes do SSH do Cloud9. Consulte a nossa documentação para obter mais detalhes.
